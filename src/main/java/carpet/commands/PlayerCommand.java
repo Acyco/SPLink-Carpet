@@ -256,7 +256,10 @@ public class PlayerCommand
         }
         catch (CommandSyntaxException ignored) {}
         String playerName = StringArgumentType.getString(context, "player");
-        if (playerName.length()>40)
+        if (!context.getSource().hasPermissionLevel(2)&&!context.getSource().getMinecraftServer().isOnlineMode()) {
+            playerName = "splbot_"+playerName;
+        }
+        if (playerName.length()>20)
         {
             Messenger.m(context.getSource(), "rb Player name: "+playerName+" is too long");
             return 0;
