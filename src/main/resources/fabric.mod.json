@@ -3,14 +3,14 @@
   "id": "carpet",
   "version": "1.4.2",
 
-  "name": "Carpet Mod in Fabric",
+  "name": "SPLink Carpet",
   "description": "Carpet made out of fabric",
   "authors": [
     "gnembon, ..."
   ],
   "contact": {
-    "homepage": "https://github.com/gnembon/fabric-carpet",
-    "sources": "https://github.com/gnembon/fabric-carpet"
+    "homepage": "https://github.com/Acyco/SPLink-Carpet",
+    "sources": "https://github.com/Acyco/SPLink-Carpet"
   },
 
   "license": "MIT",
